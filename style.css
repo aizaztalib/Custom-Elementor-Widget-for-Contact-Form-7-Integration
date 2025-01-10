@@ -1,0 +1,106 @@
+/*--------------------------------------------------------------
+## Contact Form
+--------------------------------------------------------------*/
+.wpcf7 br {
+  display: none;
+}
+.wpcf7 input:not(.wpcf7-submit),
+.wpcf7 textarea {
+  width: 100%;
+  vertical-align: middle;
+  color: #1a1b1e;
+}
+.wpcf7 p {
+  display: block;
+  margin-bottom: 45px;
+}
+.wpcf7 p:last-child {
+  margin-bottom: 0;
+}
+.wpcf7 .row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.wpcf7 .row .col-md-6 {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.wpcf7 div.wpcf7-response-output {
+  margin: 20px 0 0;
+}
+.wpcf7 span.wpcf7-not-valid-tip {
+  display: none;
+}
+.wpcf7 .wpcf7-not-valid {
+  border-color: #f00 !important;
+}
+.wpcf7 div.wpcf7-validation-errors,
+.wpcf7 div.wpcf7-acceptance-missing {
+  background: #f7e700;
+  color: #1a1b1e;
+}
+
+.wpcf7-placeholder-light .wpcf7-form-control::-webkit-input-placeholder { /*WebKit browsers*/
+  color: #ffffff;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-light .wpcf7-form-control:-moz-placeholder { /*/ Mozilla Firefox 4 to 18 /*/
+  color: #ffffff;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-light .wpcf7-form-control::-moz-placeholder { /*/ Mozilla Firefox 19+ /*/
+  color: #ffffff;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-light .wpcf7-form-control:-ms-input-placeholder { /*/ Internet Explorer 10+ /*/
+  color: #ffffff;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-dark .wpcf7-form-control::-webkit-input-placeholder { /*/ WebKit browsers /*/
+  color: #5f5f5f;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-dark .wpcf7-form-control:-moz-placeholder { /*/ Mozilla Firefox 4 to 18 /*/
+  color: #5f5f5f;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-dark .wpcf7-form-control::-moz-placeholder { /*/ Mozilla Firefox 19+ /*/
+  color: #5f5f5f;
+  opacity: 1;
+}
+
+.wpcf7-placeholder-dark .wpcf7-form-control:-ms-input-placeholder { /*/ Internet Explorer 10+ /*/
+  color: #5f5f5f;
+  opacity: 1;
+}
+
+.wpcf7 select {
+    width: 100%;
+    padding: 11px 24px; 
+    margin-top: 0;
+    border: 1px solid rgba(0, 0, 0, 0.15); 
+    border-radius: 0; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+    outline: none !important;
+}
+
+.wpcf7 select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none; 
+    background: url('data:image/svg+xml;utf8,<svg fill="%23666666" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center; 
+    background-color: transparent; 
+    cursor: pointer; 
+}
+
+.wpcf7 select:focus {
+    
+}
+
